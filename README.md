@@ -45,11 +45,8 @@ D:.
 4. Run Test Application  build->classes->test->apps->TestMainCanvas
 
 
-C Should create a new canvas CanvasPage of width w and height h.
-L Should create a new line from (x1,y1) to (x2,y2).Currently only horizontal or vertical lines are supported.Horizontal and vertical lines will be drawn using the 'x' character.
-R Should create a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2). Horizontal and vertical lines will be drawn using the 
-B Should fill the entire area connected to (x,y) with colour c.The behavior of this is the same as that of the bucket fill tool in getBuildCanvas  programs.
-Q Should quit the program.
+"""
+
 ----------------------
 |                    |
 |                    |
@@ -108,3 +105,4 @@ Application Stopped request=`Q` is received,Application will stop.
 BUILD SUCCESSFUL in 1s
 4 actionable tasks: 2 executed, 2 up-to-date
 11:23:46 AM: Task execution finished ':test --tests "apps.TestMainCanvas"'.
+"""
